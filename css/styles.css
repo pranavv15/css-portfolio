@@ -1,0 +1,104 @@
+/* Global Styles
+--------------------- */
+html {
+    box-sizing: border-box;
+    }
+    *, *:before, *:after {
+        box-sizing: inherit;
+        }	
+
+
+body {
+    color: blue;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+img {
+    width: 300px;
+}
+.content-wrap {
+    width: 900px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+h1 {
+    font-size: 80px;
+}
+h2 {
+    font-size: 45px;
+}
+h1, h2 {
+    font-family: 'Kaushan Script', cursive;
+    margin: 0;
+    font-weight: 400;
+}
+
+
+/* Profile
+--------------------- */
+header {
+    background: lightsalmon;
+    text-align: center;
+}
+
+
+
+
+/* Projects
+--------------------- */
+.projects {
+    background: lightgreen;
+}
+.project_item {
+    overflow: hidden;
+    border-bottom: 5px darkgray;
+    
+}
+.project_item img {
+    float: left;
+    padding-right: 15px;
+}
+
+
+
+/* Work Experience
+--------------------- */
+.work_exp {
+    background: lightskyblue;
+
+}
+
+
+
+
+
+
+/* Education
+--------------------- */
+.education {
+    background: lightseagreen;
+}
+
+
+
+/* Contact Info
+--------------------- */
+footer {
+    background: lightgoldenrodyellow;
+    text-align: center;
+}
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info a {
+    padding: 15px;
+    display: inline-block;
+}
+
+
