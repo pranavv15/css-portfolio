@@ -69,6 +69,11 @@ header {
     background: lightskyblue;
 
 }
+.job-items {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+}
 
 
 
