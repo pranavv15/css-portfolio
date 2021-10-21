@@ -19,7 +19,8 @@ img {
     width: 300px;
 }
 .content-wrap {
-    width: 900px;
+    max-width: 900px;
+    width: 85%;
     margin: 0 auto;
     padding: 80px 0;
 }
@@ -99,6 +100,15 @@ header {
 --------------------- */
 .education {
     background: lightseagreen;
+}
+.education {
+    background-image: url(../images/placeholder_images/joanna-kosinska-unsplash.jpg);
+    background-size: cover;
+    background-position: top right;
+    padding-bottom: 100px;
+}
+.education p {
+    width: 60%;
 }
 
 
